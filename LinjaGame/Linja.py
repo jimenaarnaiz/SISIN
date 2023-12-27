@@ -1,12 +1,12 @@
 # **Juego Linja**
 ### *Sistemas Inteligentes* (Curso 2023-2024)
 
-***Alumna:** Jimena Arnaiz González*
+#Alumna: Jimena Arnaiz González
 
-**NOTA:** En algún método hay prints interesantes como el de "fila ocupada" del método obtenerMov() o "turno perdido" de extraPerdida() comentados para que no se repitan a la hora de usar el minimax (jugada del jugador2).
-Hice eso porque no encontré una forma de hacer que no se me repitieran. También, respecto a este tema, hay dos métodos que están repetidos (un método con prints y otro sin prints) para evitar esa repetición. En esos dos, repito el código en vez de comentar los print directamente porque tienen varios prints que podrían servir de ayuda a la hora de realizar el movimiento en el jugador1. 
+#NOTA: En algún método hay prints interesantes como el de "fila ocupada" del método obtenerMov() o "turno perdido" de extraPerdida() comentados para que no se repitan a la hora de usar el minimax (jugada del jugador2).
+#Hice eso porque no encontré una forma de hacer que no se me repitieran. También, respecto a este tema, hay dos métodos que están repetidos (un método con prints y otro sin prints) para evitar esa repetición. En esos dos, repito el código en vez de comentar los print directamente porque tienen varios prints que podrían servir de ayuda a la hora de realizar el movimiento en el jugador1. 
 
-**Clase TableroLinja** 
+#**Clase TableroLinja** 
 from copy import deepcopy
 from typing import Tuple, List
 import math
@@ -594,7 +594,7 @@ class TableroLinja:
             return -1  # Indica que la partida no ha terminado
 
 
-**Función asociada al método *Minimax* (con poda $\alpha-\beta$)**
+#**Función asociada al método *Minimax* (con poda $\alpha-\beta$)**
 def miniMax(state:TableroLinja, currentLevel:int, maxLevel:int, player:int, alpha:int, beta:int, stop:bool) -> Tuple[TableroLinja, int, bool]:
     # Defino los sucesores(hijos)
     successorMatrices = [] #lista que almecenará los hijos (1 turno)
@@ -710,7 +710,7 @@ def miniMax(state:TableroLinja, currentLevel:int, maxLevel:int, player:int, alph
     return (bestMatrix, maxValue if player == 2 else minValue, stop) #si el jugador es la IA se devuelve el valor máx      
 
 
-**Poner en funcionamiento Minimax**
+#**Poner en funcionamiento Minimax**
 def performActionMinMax(state:TableroLinja, player:int):
     
     tmp = TableroLinja(state.getMatrix())
@@ -730,7 +730,7 @@ def performActionMinMax(state:TableroLinja, player:int):
     return matrizoptima    
 
     
-**Realización del movimiento por parte del jugador - ordenador**
+#**Realización del movimiento por parte del jugador - ordenador**
 def AIAction(state:TableroLinja, player:int):
     
     global AIReadyToMove
