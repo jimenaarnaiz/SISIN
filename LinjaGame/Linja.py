@@ -1,10 +1,10 @@
 # **Juego Linja**
 ### *Sistemas Inteligentes* (Curso 2023-2024)
 
-#Alumna: Jimena Arnaiz González
+# Alumna: Jimena Arnaiz González
 
-#NOTA: En algún método hay prints interesantes como el de "fila ocupada" del método obtenerMov() o "turno perdido" de extraPerdida() comentados para que no se repitan a la hora de usar el minimax (jugada del jugador2).
-#Hice eso porque no encontré una forma de hacer que no se me repitieran. También, respecto a este tema, hay dos métodos que están repetidos (un método con prints y otro sin prints) para evitar esa repetición. En esos dos, repito el código en vez de comentar los print directamente porque tienen varios prints que podrían servir de ayuda a la hora de realizar el movimiento en el jugador1. 
+# NOTA: En algún método hay prints interesantes como el de "fila ocupada" del método obtenerMov() o "turno perdido" de extraPerdida() comentados para que no se repitan a la hora de usar el minimax (jugada del jugador2).
+# Hice eso porque no encontré una forma de hacer que no se me repitieran. También, respecto a este tema, hay dos métodos que están repetidos (un método con prints y otro sin prints) para evitar esa repetición. En esos dos, repito el código en vez de comentar los print directamente porque tienen varios prints que podrían servir de ayuda a la hora de realizar el movimiento en el jugador1. 
 
 #**Clase TableroLinja** 
 from copy import deepcopy
