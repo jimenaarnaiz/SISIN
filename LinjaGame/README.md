@@ -22,7 +22,7 @@ Al final del juego, cada jugador obtiene puntos en función de la línea en la q
    - Mueve una ficha a la siguiente línea disponible.
    - El número de fichas que puede mover depende del número de fichas en la línea donde se encuentra la ficha más adelantada.
 3. No se puede saltar una ficha rival.
-4. El juego termina cuando todas las fichas han llegado a la última línea.
+4. **La partida finaliza cuando las fichas de ambos jugadores se han sobrepasado completamente**. Es decir: Las fichas rojas quedan a un lado del tablero y las negras a otro, sin mezclarse. 
 
 ## 🧮 Puntuación
 
